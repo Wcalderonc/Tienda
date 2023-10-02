@@ -1,0 +1,48 @@
+/* 
+    Created on : Sep 30, 2023, 2:19:16 AM
+    Author     : wilso
+*/
+#encabezado {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#tituloPrincipal {
+    color: aquamarine;
+}
+
+.parrafosCentrados {
+    text-align: center;
+    font-weight: bold;
+    color: #666666;
+}
+
+.textoVerde{
+    color:greenyellow;
+}
+
+p, h1, span {
+    color:blue;
+}
+
+a:link {
+    background-color: green;
+    color: white;
+}
+
+a:visited{
+    background-color: violet;
+    color: white;
+}
+
+a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+a:active {
+    background-color: red;
+    color: white;
+}
+
+
