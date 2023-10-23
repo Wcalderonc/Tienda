@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
-<title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
--->
+
 <html>
     <head>
         <title>Tienda en linea</title>
         <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div style="text-align: center; width: 50%; margin: 0 auto;"> 
-            <!-- margin: 0 auto; centra el div -->
-            <h1>Ejemplo 2</h1>
-            <p>Bienvenidos al curso de Web y Patrones</p>
-        </div>
+        <header class="header">
+            <nav class="nav"><!<!-- Etiqueta que indica al navegador que es un menu -->
+                <a href="index.htlm" class="logo nav-link">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="index.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="ejemplo3.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="audios.html">Audios</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="iframes.html">Iframes</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formularios.html">Formularios</a></li>
+                </ul>
+            </nav>
+        </header>
+        <aside id="barraLateral">
+            <h2>Contenido lateral</h2>
+            <br/>
+            <p style="text-aline: right;">Este es el texto que se muestra en la parte lateral de la pagina>
+        </aside>
+        <section id="contenido">
+            <div style="text-align: center; width: 50%; margin: 0 auto;"> 
+                <!-- margin: 0 auto; centra el div -->
+                <h1>Ejemplo 2</h1>
+                <p>Bienvenidos al curso de Web y Patrones</p>
+            </div>
 
-
-        <div>
-            <p style="text-align: right;"> TODO write content
-            <p style="text-align: right;"> TODO write content
-            <p style="text-align: right;"> TODO write content
-        </div>
+            <div>
+                <p style="text-align: right;"> TODO write content
+                <p style="text-align: center;"> TODO write content
+                <p style="text-align: left;"> TODO write content
+            </div>
+        </section>
+        <footer id="piePagina">Derechos reservados &COPY; 2023</footer>
     </body>
 </html>

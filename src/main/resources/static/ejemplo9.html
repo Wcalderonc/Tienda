@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- action, lo que hace es llamar a la accion en el servidor a ejecutar (# para que no haga nada.  
+method, el metodo htlm o http con el que va a hacer la peticion se van a utilizar normalmente con POST (envia los datos como una parte del BODY) o GET (en el URL) 
+Se componen de dos pares los forms que son el Label que es la etiqueta y el input son los valores detras que son los que podemos pedir datos-->
+<html>
+    <head>
+        <title>Tienda en linea</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <div style="text-align: center; width: 50%; margin: 0 auto;" id="encabezado"> 
+        <!-- margin: 0 auto; centra el div -->
+        <h1>Ejemplo 9</h1>
+        <p>Bienvenidos al curso de Web y Patrones</p>
+    </div>
+
+    <a href="ejemplo8.html">Atras</a>
+    <br>
+    <a href="index.html">Adelante</a>
+    <br>
+    <br>
+
+    <form action="#" method="GET">
+        <label>NOMBRE</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Digite su nombre" size="50" />
+        <br>
+        <label>CORREO</label>
+        <input type="email" name="correo" id="correo" placeholder="Digite su correo" />
+        <br>
+        <label>PASSWORD</label>
+        <input type="password" name="password" id="password" />
+        <br>
+        <input type="submit" value="Enviar" />
+        <!-- submit es un boton que toma los datos de los inputs y los envia a la accion -->
+    </form>
+    
+</html>
